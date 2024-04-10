@@ -1,18 +1,22 @@
 {
-  "name": "node",
+  "name": "week4_assignments",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Week 4 Assignments",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3"
+    "eslint": "^8.6.0",
+    "prettier": "^2.5.1",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
   }
 }
