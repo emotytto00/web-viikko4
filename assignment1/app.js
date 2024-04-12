@@ -19,7 +19,7 @@ app.get('/api/v1/cat', (req, res) => {
     name: 'Fluffy',
     birthdate: '2022-01-01',
     weight: 5,
-    owner: 'John Doe',
+    owner: 'Jorma Jormakka',
     image: 'https://loremflickr.com/320/240/cat',
   };
   res.json(cat);
